@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "InterTools",
+    "img": "https://i.ibb.co/gF7hv53/Screenshot-4.png",
+    "description": "This is a machinery ordering website where users can order machineries. Users can login and see their orders in dashboard. User can update their profile. User can add reviews for our site.",
+    "clientCode": "https://github.com/AshikurRahmanMunna/intertools-client",
+    "serverCode": "https://github.com/AshikurRahmanMunna/intertools-server",
+    "liveSite": "https://intertools-1402d.firebaseapp.com/",
+    "technologies": [
+      "React JS",
+      "Node JS",
+      "Express Js",
+      "MongoDB",
+      "React Router",
+      "Tailwind CSS",
+      "daisy UI ",
+      "Firebase",
+      "React Firebase Hook",
+      "JWT",
+      "Heroku",
+      "React Query",
+      "React Countup",
+      "React Rating",
+      "React Visibility Sensor"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "GroInventory",
+    "img": "https://i.ibb.co/phFRxM3/Screenshot-5.png",
+    "description": "This is a inventory management website. This website can manage inventory. You can add a item to the inventory. Manage all items. Stock and restock items. You can login. You can add your review about this website also.",
+    "clientCode": "https://github.com/AshikurRahmanMunna/groinventory-client",
+    "serverCode": "https://github.com/AshikurRahmanMunna/groinventory-server",
+    "liveSite": "https://groinventoy.web.app/",
+    "technologies": [
+      "React JS",
+      "Node JS",
+      "Express Js",
+      "MongoDB",
+      "React Router",
+      "Bootstrap",
+      "React-Bootstrap",
+      "React Toastify",
+      "Firebase",
+      "React Firebase Hook",
+      "JWT",
+      "Heroku"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Cloth Analysis",
+    "img": "https://i.ibb.co/2jVwCsq/Screenshot-6.png",
+    "description": "This is a cloth analysis website. There is some charts and some reviews",
+    "clientCode": "https://github.com/AshikurRahmanMunna/product-analysis",
+    "serverCode": null,
+    "liveSite": "https://cloth-analysis.netlify.app/",
+    "technologies": [" React", "React Router", "Tailwind", "Recharts"]
+  }
+]
