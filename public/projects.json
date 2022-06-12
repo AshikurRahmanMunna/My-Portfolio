@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "InterTools",
-    "img": "https://i.ibb.co/gF7hv53/Screenshot-4.png",
+    "img": "https://i.ibb.co/CwD0NZ8/Screenshot-8.png",
     "description": "This is a machinery ordering website where users can order machineries. Users can login and see their orders in dashboard. User can update their profile. User can add reviews for our site.",
     "clientCode": "https://github.com/AshikurRahmanMunna/intertools-client",
     "serverCode": "https://github.com/AshikurRahmanMunna/intertools-server",
@@ -49,9 +49,9 @@
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Cloth Analysis",
-    "img": "https://i.ibb.co/2jVwCsq/Screenshot-6.png",
+    "img": "https://i.ibb.co/JpQ4XVv/Screenshot-9.png",
     "description": "This is a cloth analysis website. There is some charts and some reviews",
     "clientCode": "https://github.com/AshikurRahmanMunna/product-analysis",
     "serverCode": null,
