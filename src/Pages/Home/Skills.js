@@ -10,7 +10,7 @@ const Skills = () => {
     }, [])
     return (
         <div>
-            <h2 className='text-4xl text-white text-center mb-4 border-b-secondary'>Skills</h2>
+            <h2 className='text-5xl text-white text-center mb-4 border-b-secondary font-raleway font-bold'>Ski<span className='text-primary'>lls</span></h2>
             <div className='grid grid-cols-6 gap-4 container mx-auto lg:px-12'>
                 {
                     skills.map(skill => <Skill key={skill.id} skill={skill} />)

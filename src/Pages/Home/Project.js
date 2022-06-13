@@ -28,27 +28,27 @@ const Project = ({ project }) => {
         <div className="flex items-center justify-between w-2/4">
           {clientCode && (
             <div class="tooltip tooltip-bottom" data-tip="Client Code">
-              <button className="w-10 h-10 rounded-full bg-white">
+              <button className="w-10 h-10 rounded-full bg-primary">
                 <FontAwesomeIcon className="text-black" icon={faCode} />
               </button>
             </div>
           )}
           {serverCode && (
             <div class="tooltip tooltip-bottom" data-tip="Server Code">
-              <button className="w-10 h-10 rounded-full bg-white">
+              <button className="w-10 h-10 rounded-full bg-primary">
                 <FontAwesomeIcon className="text-black" icon={faServer} />
               </button>
             </div>
           )}
           {liveSite && (
             <div class="tooltip tooltip-bottom" data-tip="Live Site">
-              <button className="w-10 h-10 rounded-full bg-white">
+              <button className="w-10 h-10 rounded-full bg-primary">
                 <FontAwesomeIcon className="text-black" icon={faGlobe} />
               </button>
             </div>
           )}
           <div class="tooltip tooltip-bottom" data-tip="Details">
-            <button onClick={() => navigate(`/project/${id}`)} className="w-10 h-10 rounded-full bg-white">
+            <button onClick={() => navigate(`/project/${id}`)} className="w-10 h-10 rounded-full bg-primary">
               <FontAwesomeIcon className="text-black" icon={faInfo} />
             </button>
           </div>

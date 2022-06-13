@@ -16,10 +16,46 @@ const Navbar = () => {
         <CustomLink to="/about">About Me</CustomLink>
       </li>
       <li>
-        <CustomLink to="/projects">Projects</CustomLink>
+        <Link
+          to="/"
+          onClick={() =>
+            window.scrollTo({
+              top: 550,
+              left: 0,
+              behavior: "smooth",
+            })
+          }
+        >
+          Skills
+        </Link>
       </li>
       <li>
-        <CustomLink to="/contact">Contact Me</CustomLink>
+        <Link
+          to="/"
+          onClick={() =>
+            window.scrollTo({
+              top: 1325,
+              left: 0,
+              behavior: "smooth",
+            })
+          }
+        >
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/"
+          onClick={() =>
+            window.scrollTo({
+              top: 1800,
+              left: 0,
+              behavior: "smooth",
+            })
+          }
+        >
+          Contact Us
+        </Link>
       </li>
     </>
   );
@@ -30,9 +66,13 @@ const Navbar = () => {
       setNavbarTransparent(false);
     }
   };
-  window.addEventListener('scroll', changeNavbarTransparency);
+  window.addEventListener("scroll", changeNavbarTransparency);
   return (
-    <div class={`navbar z-50 lg:px-16 duration-500 fixed top-0 ${navbarTransparent ? 'bg-transparent' : 'bg-[#00283A] shadow-md'} text-white`}>
+    <div
+      class={`navbar z-50 lg:px-16 duration-500 fixed top-0 ${
+        navbarTransparent ? "bg-transparent" : "bg-[#00283A] shadow-md"
+      } text-white`}
+    >
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">

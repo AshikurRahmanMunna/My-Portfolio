@@ -22,7 +22,7 @@ const Banner = () => {
         "React JS Developer",
         "Web Developer",
       ]}
-      cursorColor="#70BA65"
+      cursorColor="#F97415"
       typeSpeed={100}
       hideCursorAfterText={true}
     />
@@ -113,7 +113,7 @@ const Banner = () => {
             alt="img"
           />
           <div>
-            <h1 class="text-5xl font-bold">Ashikur Rahman Munna</h1>
+            <h1 class="text-5xl font-raleway font-bold">Ashikur Rahman Munna</h1>
             <h4 class="py-3 text-2xl flex items-center font-semibold">
               I'm <span className="text-primary pl-2">{animation}</span>
             </h4>
@@ -161,7 +161,7 @@ const Banner = () => {
             </div>
             <a
               href={resume}
-              className="btn btn-primary mt-3 text-white"
+              className="btn btn-primary mt-3 text-white hover:bg-transparent"
               download
             >
               <FontAwesomeIcon icon={faDownload} className="mr-2" />
