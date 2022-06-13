@@ -23,6 +23,25 @@
       "React Countup",
       "React Rating",
       "React Visibility Sensor"
+    ],
+    "imgSet": [
+      "https://i.ibb.co/6nGThbh/Screenshot-22.png",
+      "https://i.ibb.co/dbZ6JSq/Screenshot-23.png",
+      "https://i.ibb.co/7KBmQsG/Screenshot-24.png",
+      "https://i.ibb.co/ZBdqzL9/Screenshot-25.png",
+      "https://i.ibb.co/7tQX8Yw/Screenshot-26.png",
+      "https://i.ibb.co/TTD08RV/Screenshot-27.png",
+      "https://i.ibb.co/4gzTbXF/Screenshot-28.png",
+      "https://i.ibb.co/QbQgr9Q/Screenshot-14.png",
+      "https://i.ibb.co/Jcr6rLt/Screenshot-15.png",
+      "https://i.ibb.co/7v8Zpyq/Screenshot-16.png",
+      "https://i.ibb.co/nPRYtdx/Screenshot-17.png",
+      "https://i.ibb.co/GdJWkY5/Screenshot-18.png",
+      "https://i.ibb.co/vhyFSF0/Screenshot-19.png",
+      "https://i.ibb.co/vsJ9FWT/Screenshot-20.png",
+      "https://i.ibb.co/zN6VrjY/Screenshot-21.png",
+      "https://i.ibb.co/Qnt9drx/Screenshot-61.png",
+      "https://i.ibb.co/JKdtLJx/Screenshot-62.png"
     ]
   },
   {
@@ -46,6 +65,21 @@
       "React Firebase Hook",
       "JWT",
       "Heroku"
+    ],
+    "imgSet": [
+      "https://i.ibb.co/yRrFfKN/Screenshot-58.png",
+      "https://i.ibb.co/yNfZKK7/Screenshot-29.png",
+      "https://i.ibb.co/1qKVhWC/Screenshot-30.png",
+      "https://i.ibb.co/SfytB77/Screenshot-32.png",
+      "https://i.ibb.co/tmTpsLC/Screenshot-35.png",
+      "https://i.ibb.co/5rBN7Qf/Screenshot-36.png",
+      "https://i.ibb.co/dcxY4LB/Screenshot-37.png",
+      "https://i.ibb.co/M74KCQK/Screenshot-38.png",
+      "https://i.ibb.co/Y7gbpQK/Screenshot-53.png",
+      "https://i.ibb.co/7VS9kTh/Screenshot-54.png",
+      "https://i.ibb.co/JjXLFQL/Screenshot-55.png",
+      "https://i.ibb.co/jJCMhys/Screenshot-56.png",
+      "https://i.ibb.co/Y24wC2J/Screenshot-57.png"
     ]
   },
   {
@@ -56,6 +90,11 @@
     "clientCode": "https://github.com/AshikurRahmanMunna/product-analysis",
     "serverCode": null,
     "liveSite": "https://cloth-analysis.netlify.app/",
-    "technologies": [" React", "React Router", "Tailwind", "Recharts"]
+    "technologies": [" React", "React Router", "Tailwind", "Recharts"],
+    "imgSet": [
+      "https://i.ibb.co/s2snMxs/Screenshot-64.png",
+      "https://i.ibb.co/P6DKw3Q/Screenshot-65.png",
+      "https://i.ibb.co/4sK34cs/Screenshot-66.png"
+    ]
   }
 ]

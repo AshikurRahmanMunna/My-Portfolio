@@ -1,0 +1,14 @@
+.contact-form input, textarea {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form input:focus, textarea:focus {
+    border: white;
+    outline: none;
+}
