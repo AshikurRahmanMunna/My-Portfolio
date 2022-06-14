@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import ParticlesAnimation from "./components/Particles";
 import Blogs from "./Pages/Blogs/Blogs";
 import { useEffect } from "react";
+import ToTop from "./components/ToTop";
+import AboutMe from "./Pages/Home/AboutMe";
 
 function App() {
   useEffect(() => {
@@ -22,9 +24,11 @@ function App() {
       <ParticlesAnimation />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<AboutMe />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/project/:id" element={<ProjectById />}></Route>
       </Routes>
+      <ToTop></ToTop>
       <Footer></Footer>
       <ToastContainer />
     </div>

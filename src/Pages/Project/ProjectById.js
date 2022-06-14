@@ -96,6 +96,32 @@ const ProjectById = () => {
       },
       {
         id: 3,
+        name: "Red Onion",
+        img: "https://i.ibb.co/BPzpzqs/Screenshot-81.png",
+        description:
+          "This is a food ordering website website. There you can see foods in some categories like breakfast, lunch, dinner. User can also add product.",
+        clientCode: "https://github.com/AshikurRahmanMunna/red-onion",
+        serverCode: "https://github.com/AshikurRahmanMunna/red-onion-server",
+        liveSite: "https://red-onion-c95dc.web.app/",
+        technologies: [
+          " React",
+          "React Router",
+          "Firebase",
+          "Bootstrap",
+          "React Bootstrap",
+          "Node JS",
+          "Express JS",
+          "MongoDB",
+        ],
+        imgSet: [
+          "https://i.ibb.co/Wzb2G9Q/Screenshot-82.png",
+          "https://i.ibb.co/p1jffzQ/Screenshot-83.png",
+          "https://i.ibb.co/hYHr9GH/Screenshot-86.png",
+          "https://i.ibb.co/4pyRKcy/Screenshot-87.png",
+        ],
+      },
+      {
+        id: 4,
         name: "Cloth Analysis",
         img: "https://i.ibb.co/JpQ4XVv/Screenshot-9.png",
         description:
@@ -111,7 +137,7 @@ const ProjectById = () => {
         ],
       },
       {
-        id: 4,
+        id: 5,
         name: "Lucky One",
         img: "https://i.ibb.co/hXQxzh5/Screenshot-75.png",
         description:
@@ -123,10 +149,11 @@ const ProjectById = () => {
         imgSet: [
           "https://i.ibb.co/CKkmcbb/Screenshot-76.png",
           "https://i.ibb.co/s210M41/Screenshot-74.png",
+          "https://i.ibb.co/MnkpCkC/image.png",
         ],
       },
       {
-        id: 5,
+        id: 6,
         name: "Smartphone Master",
         img: "https://i.ibb.co/bWq6vc5/Screenshot-77.png",
         description:
@@ -135,7 +162,11 @@ const ProjectById = () => {
         serverCode: null,
         liveSite: "https://smartphone-master.netlify.app/",
         technologies: [" React", "Bootstrap", "React-Bootstrap"],
-        imgSet: ["https://i.ibb.co/W5G48nm/Screenshot-78.png"],
+        imgSet: [
+          "https://i.ibb.co/W5G48nm/Screenshot-78.png",
+          "https://i.ibb.co/vkY1Z33/Screenshot-89.png",
+          "https://i.ibb.co/JQbV3RQ/Screenshot-90.png",
+        ],
       },
     ];
 
@@ -167,7 +198,7 @@ const ProjectById = () => {
                 rel="noopener noreferrer"
                 target={"_blank"}
                 href={clientCode}
-                className="btn btn-outline mr-4 btn-primary"
+                className="btn btn-outline mr-4 mt-2 lg:mt-0 btn-primary"
               >
                 Client Code <FontAwesomeIcon className="ml-2" icon={faCode} />
               </a>
@@ -177,7 +208,7 @@ const ProjectById = () => {
                 rel="noopener noreferrer"
                 target={"_blank"}
                 href={serverCode}
-                className="btn btn-outline mr-4 btn-primary"
+                className="btn btn-outline mr-4 mt-2 lg:mt-0 btn-primary"
               >
                 Server Code <FontAwesomeIcon className="ml-2" icon={faServer} />
               </a>
@@ -187,7 +218,7 @@ const ProjectById = () => {
                 rel="noopener noreferrer"
                 target={"_blank"}
                 href={liveSite}
-                className="btn btn-outline mr-4 btn-primary"
+                className="btn btn-outline mr-4 mt-2 lg:mt-0 btn-primary"
               >
                 Live Site <FontAwesomeIcon className="ml-2" icon={faGlobe} />
               </a>

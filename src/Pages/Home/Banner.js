@@ -38,7 +38,7 @@ const Banner = () => {
             class="rounded-lg shadow-2xl z-40 lg:w-full lg:mt-0 mt-20"
             alt="img"
           />
-          <div>
+          <div className="lg:mt-0 mt-5">
             <h1 class="lg:text-5xl text-2xl font-raleway font-bold">
               Ashikur Rahman <span className="text-primary">Munna</span>
             </h1>

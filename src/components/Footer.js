@@ -12,10 +12,10 @@ const Footer = () => {
     <div className="bg-secondary py-16 font-bold text-white">
       <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center container mx-auto lg:px-12">
         <h6 className="text-xl"><span className="text-primary">&copy;</span> 2022 All Rights Reserved</h6>
-        <h6 className="text-xl">
+        <h6 className="text-xl mt-2 lg:mt-0">
           Ashikur Rahman <span className="text-primary">Munna</span>
         </h6>
-        <div className="flex justify-between items-center w-2/6">
+        <div className="flex justify-between items-center w-3/6 lg:w-2/6 mt-4 lg:mt-0">
           <a
             rel="noreferrer noopener"
             target={"_blank"}
