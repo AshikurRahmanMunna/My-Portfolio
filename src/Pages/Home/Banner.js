@@ -43,7 +43,7 @@ const Banner = () => {
               Ashikur Rahman <span className="text-primary">Munna</span>
             </h1>
             <h4 class="lg:py-3 py-1 lg:text-2xl text-xl flex items-center font-semibold">
-              I'm <span className="text-primary pl-2">{animation}</span>
+            I'm <span className="text-primary pl-2">{animation}</span>
             </h4>
             <div className="flex justify-between items-center lg:w-2/6 w-3/6">
               <a

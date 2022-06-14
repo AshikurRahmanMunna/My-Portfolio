@@ -214,8 +214,8 @@ const ProjectById = () => {
           Project Screenshots
         </h3>
         <div className="grid grid-cols-2 px-6 lg:grid-cols-5 gap-3 container mx-auto lg:px-12">
-          {imgSet?.map((img) => (
-            <img src={img} alt="screenshot" />
+          {imgSet?.map((img, index) => (
+            <img src={img} alt={index + 1} />
           ))}
         </div>
       </div>

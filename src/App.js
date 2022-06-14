@@ -8,8 +8,14 @@ import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
 import ParticlesAnimation from "./components/Particles";
 import Blogs from "./Pages/Blogs/Blogs";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0 , 5);
+    }, 300)
+  }, [])
   return(
     <div>
       <Navbar></Navbar>
