@@ -7,6 +7,7 @@ import ProjectById from "./Pages/Project/ProjectById";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
 import ParticlesAnimation from "./components/Particles";
+import Blogs from "./Pages/Blogs/Blogs";
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
       <ParticlesAnimation />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/project/:id" element={<ProjectById />}></Route>
       </Routes>
       <Footer></Footer>

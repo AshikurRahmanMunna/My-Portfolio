@@ -27,8 +27,7 @@ const Banner = () => {
       hideCursorAfterText={true}
     />
   );
-  
-  
+
   return (
     <div>
       <div class="hero min-h-screen lg:px-56 mx-auto text-white">
@@ -40,7 +39,9 @@ const Banner = () => {
             alt="img"
           />
           <div>
-            <h1 class="lg:text-5xl text-2xl font-raleway font-bold">Ashikur Rahman <span className="text-primary">Munna</span></h1>
+            <h1 class="lg:text-5xl text-2xl font-raleway font-bold">
+              Ashikur Rahman <span className="text-primary">Munna</span>
+            </h1>
             <h4 class="lg:py-3 py-1 lg:text-2xl text-xl flex items-center font-semibold">
               I'm <span className="text-primary pl-2">{animation}</span>
             </h4>

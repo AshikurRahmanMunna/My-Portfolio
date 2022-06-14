@@ -154,8 +154,8 @@ const ProjectById = () => {
 
   return (
     <div>
-      <div className="min-h-screen container mx-auto lg:px-12 flex items-center justify-center">
-        <div className="flex-1">
+      <div className="min-h-screen container mx-auto lg:px-12 flex lg:flex-row flex-col items-center lg:mt-0 mt-28 justify-center">
+        <div className="flex-1 lg:mx-0 mx-6 lg:mb-0 mb-6">
           <img
             src={img}
             className="w-full h-auto shadow-lg rounded-md"
@@ -213,7 +213,7 @@ const ProjectById = () => {
         <h3 className="text-3xl text-center font-poppins mb-4 text-primary">
           Project Screenshots
         </h3>
-        <div className="grid grid-cols-5 gap-3 container mx-auto lg:px-12">
+        <div className="grid grid-cols-2 px-6 lg:grid-cols-5 gap-3 container mx-auto lg:px-12">
           {imgSet?.map((img) => (
             <img src={img} alt="screenshot" />
           ))}

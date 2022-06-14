@@ -13,6 +13,9 @@ const Navbar = () => {
         <CustomLink to="/about">About Me</CustomLink>
       </li>
       <li>
+        <CustomLink to="/blogs">Blogs</CustomLink>
+      </li>
+      <li>
         <a href="/#skills"
         >
           Skills
