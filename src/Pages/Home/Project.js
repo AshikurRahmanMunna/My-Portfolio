@@ -19,7 +19,7 @@ const Project = ({ project }) => {
   } = project;
   const navigate = useNavigate();
   return (
-    <div class="card rounded-lg bg-base-100 shadow-xl">
+    <div id="projects" class="card rounded-lg bg-base-100 shadow-xl">
       <figure>
         <img src={img} alt={name} />
       </figure>

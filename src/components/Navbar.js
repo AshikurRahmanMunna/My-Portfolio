@@ -13,46 +13,22 @@ const Navbar = () => {
         <CustomLink to="/about">About Me</CustomLink>
       </li>
       <li>
-        <Link
-          to="/"
-          onClick={() =>
-            window.scrollTo({
-              top: 550,
-              left: 0,
-              behavior: "smooth",
-            })
-          }
+        <a href="/#skills"
         >
           Skills
-        </Link>
+        </a>
       </li>
       <li>
-        <Link
-          to="/"
-          onClick={() =>
-            window.scrollTo({
-              top: 1375,
-              left: 0,
-              behavior: "smooth",
-            })
-          }
+        <a href="/#projects"
         >
           Projects
-        </Link>
+        </a>
       </li>
       <li>
-        <Link
-          to="/"
-          onClick={() =>
-            window.scrollTo({
-              top: 2200,
-              left: 0,
-              behavior: "smooth",
-            })
-          }
+        <a href="/#contact"
         >
           Contact Me
-        </Link>
+        </a>
       </li>
     </>
   );

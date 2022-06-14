@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
