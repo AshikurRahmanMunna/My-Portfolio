@@ -129,9 +129,9 @@ const ContactMe = () => {
                 rel="noopener noreferrer"
                 target={"_blank"}
                 className="text-white"
-                href="https://www.google.com.bd/maps/place/Mulibash+Bazar/@23.6370191,90.5063549,17z/data=!4m5!3m4!1s0x3755b1b4598dae09:0xca3ebf7605a5ae07!8m2!3d23.6372154!4d90.5060616?hl=en&authuser=0"
+                href="https://goo.gl/maps/VDrAorRmjAM8aAZz7"
               >
-                Mulibash Bazar, Hajigonj, Narayangonj
+                Rayerbag, Dhaka
               </a>
             </div>
           </div>
