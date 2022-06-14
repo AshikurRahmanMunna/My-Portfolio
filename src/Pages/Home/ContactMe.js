@@ -56,12 +56,12 @@ const ContactMe = () => {
       );
   };
   return (
-    <div className="my-6">
+    <div className="my-24">
       <h2 className="text-5xl font-bold text-white font-raleway text-center mb-4 border-b-secondary">
         Contact <span className="text-primary">Me</span>
       </h2>
-      <div className="flex container mx-auto lg:px-12 items-center justify-center">
-        <div className="flex-1">
+      <div className="flex container lg:flex-row flex-col lg:mb-0 mx-auto lg:px-12 items-center justify-center">
+        <div className="flex-1 lg:mb-0 mb-10">
           <div className="flex items-center mb-4">
             <div>
               <FontAwesomeIcon
@@ -140,7 +140,7 @@ const ContactMe = () => {
           ref={form}
           autoComplete="off"
           onSubmit={handleSubmit(handleSendEmail)}
-          className="contact-form flex-1"
+          className="contact-form flex-1 px-6 lg:px-0"
         >
           <div className="flex mb-3 justify-between">
             <div className="mr-3 flex-1">

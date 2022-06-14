@@ -110,7 +110,35 @@ const ProjectById = () => {
           "https://i.ibb.co/4sK34cs/Screenshot-66.png",
         ],
       },
+      {
+        id: 4,
+        name: "Lucky One",
+        img: "https://i.ibb.co/hXQxzh5/Screenshot-75.png",
+        description:
+          "This is a website to add cars to the cart. And then the website can choose a random item for you",
+        clientCode: "https://github.com/AshikurRahmanMunna/lucky-one",
+        serverCode: null,
+        liveSite: "https://lucky-one-munna.netlify.app/",
+        technologies: [" React", "Bootstrap", "React-Bootstrap"],
+        imgSet: [
+          "https://i.ibb.co/CKkmcbb/Screenshot-76.png",
+          "https://i.ibb.co/s210M41/Screenshot-74.png",
+        ],
+      },
+      {
+        id: 5,
+        name: "Smartphone Master",
+        img: "https://i.ibb.co/bWq6vc5/Screenshot-77.png",
+        description:
+          "This is a website to search smartphones. You can also see the smartphone details",
+        clientCode: "https://github.com/AshikurRahmanMunna/smartphone-master",
+        serverCode: null,
+        liveSite: "https://smartphone-master.netlify.app/",
+        technologies: [" React", "Bootstrap", "React-Bootstrap"],
+        imgSet: ["https://i.ibb.co/W5G48nm/Screenshot-78.png"],
+      },
     ];
+
     setProject(projects.find((p) => p.id === parseInt(id)));
   }, [id]);
   const {

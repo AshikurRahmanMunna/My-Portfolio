@@ -4,3 +4,12 @@
 .font-raleway {
   font-family: 'Raleway', sans-serif;
 }
+.font-lobster {
+  font-family: 'Lobster', cursive;
+}
+.social-links {
+  transition: all .8s ease-in-out;
+}
+.social-links:hover {
+  transform: rotate(360deg) scale(1.3);
+}

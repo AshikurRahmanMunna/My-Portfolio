@@ -1,8 +1,5 @@
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import resume from "../assets/files/Resume Munna.pdf";
 import CustomLink from "./CustomLink";
 
 const Navbar = () => {
@@ -34,7 +31,7 @@ const Navbar = () => {
           to="/"
           onClick={() =>
             window.scrollTo({
-              top: 1325,
+              top: 1375,
               left: 0,
               behavior: "smooth",
             })
@@ -48,13 +45,13 @@ const Navbar = () => {
           to="/"
           onClick={() =>
             window.scrollTo({
-              top: 1800,
+              top: 2200,
               left: 0,
               behavior: "smooth",
             })
           }
         >
-          Contact Us
+          Contact Me
         </Link>
       </li>
     </>
@@ -93,12 +90,12 @@ const Navbar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu w-screen bg-secondary m-0 left-[-9px] dropdown-content mt-3 p-2 shadow rounded-box"
           >
             {navItems}
           </ul>
         </div>
-        <Link to="/" class="normal-case font-bold text-xl lg:text-2xl">
+        <Link to="/" class="normal-case font-bold text-xl lg:text-3xl font-lobster">
           Mun<span className="text-primary">na</span>
         </Link>
       </div>

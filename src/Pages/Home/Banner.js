@@ -27,104 +27,31 @@ const Banner = () => {
       hideCursorAfterText={true}
     />
   );
-  const particlesInit = async (main) => {
-    console.log(main);
-    await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-  const particlesAnimation = (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.2,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 1,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 20,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 5 },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-  );
+  
+  
   return (
     <div>
       <div class="hero min-h-screen lg:px-56 mx-auto text-white">
-        {particlesAnimation}
         <div class="flex items-center w-full justify-between flex-col lg:flex-row-reverse">
           <img
             src={photo}
             style={{ width: "17rem" }}
-            class="rounded-lg shadow-2xl z-40"
+            class="rounded-lg shadow-2xl z-40 lg:w-full lg:mt-0 mt-20"
             alt="img"
           />
           <div>
-            <h1 class="text-5xl font-raleway font-bold">Ashikur Rahman Munna</h1>
-            <h4 class="py-3 text-2xl flex items-center font-semibold">
+            <h1 class="lg:text-5xl text-2xl font-raleway font-bold">Ashikur Rahman <span className="text-primary">Munna</span></h1>
+            <h4 class="lg:py-3 py-1 lg:text-2xl text-xl flex items-center font-semibold">
               I'm <span className="text-primary pl-2">{animation}</span>
             </h4>
-            <div className="flex justify-between items-center w-2/6">
+            <div className="flex justify-between items-center lg:w-2/6 w-3/6">
               <a
                 rel="noreferrer noopener"
                 target={"_blank"}
                 href="https://www.facebook.com/ashikurrahman.munna.90"
               >
                 <FontAwesomeIcon
-                  className="text-2xl text-primary"
+                  className="text-2xl text-primary social-links"
                   icon={faFacebook}
                 />
               </a>
@@ -134,7 +61,7 @@ const Banner = () => {
                 href="https://www.linkedin.com/in/ashikur-rahman-munna-543917229/"
               >
                 <FontAwesomeIcon
-                  className="text-2xl text-primary"
+                  className="text-2xl text-primary social-links"
                   icon={faLinkedin}
                 />
               </a>
@@ -144,7 +71,7 @@ const Banner = () => {
                 href="https://github.com/AshikurRahmanMunna"
               >
                 <FontAwesomeIcon
-                  className="text-2xl text-primary"
+                  className="text-2xl text-primary social-links"
                   icon={faGithubSquare}
                 />
               </a>
@@ -154,7 +81,7 @@ const Banner = () => {
                 href="https://www.instagram.com/ashikurrahmanmunna3/"
               >
                 <FontAwesomeIcon
-                  className="text-2xl text-primary"
+                  className="text-2xl text-primary social-links"
                   icon={faInstagramSquare}
                 />
               </a>
