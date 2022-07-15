@@ -6,7 +6,7 @@ import {
   faInfo,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Project = ({ project }) => {
   const {
@@ -19,15 +19,15 @@ const Project = ({ project }) => {
   } = project;
   const navigate = useNavigate();
   return (
-    <div id="projects" class="card rounded-lg bg-base-100 shadow-xl">
+    <div id="projects" className="card rounded-lg bg-base-100 shadow-xl">
       <figure>
         <img src={img} alt={name} />
       </figure>
-      <div class="bg-secondary p-6 pl-8">
-        <h2 class="card-title pb-2">{name}</h2>
+      <div className="bg-secondary p-6 pl-8">
+        <h2 className="card-title pb-2">{name}</h2>
         <div className="flex items-center">
           {clientCode && (
-            <div class="tooltip tooltip-bottom" data-tip="Client Code">
+            <div className="tooltip tooltip-bottom" data-tip="Client Code">
               <a rel="noopener noreferrer" target={"_blank"} href={clientCode}>
                 <button className="w-10 h-10 mr-2 rounded-full bg-primary">
                   <FontAwesomeIcon className="text-black" icon={faCode} />
@@ -36,7 +36,7 @@ const Project = ({ project }) => {
             </div>
           )}
           {serverCode && (
-            <div class="tooltip tooltip-bottom" data-tip="Server Code">
+            <div className="tooltip tooltip-bottom" data-tip="Server Code">
               <a rel="noopener noreferrer" target={"_blank"} href={serverCode}>
                 <button className="w-10 h-10 mr-2 rounded-full bg-primary">
                   <FontAwesomeIcon className="text-black" icon={faServer} />
@@ -45,7 +45,7 @@ const Project = ({ project }) => {
             </div>
           )}
           {liveSite && (
-            <div class="tooltip tooltip-bottom" data-tip="Live Site">
+            <div className="tooltip tooltip-bottom" data-tip="Live Site">
               <a rel="noopener noreferrer" target={"_blank"} href={liveSite}>
                 <button className="w-10 h-10 mr-2 rounded-full bg-primary">
                   <FontAwesomeIcon className="text-black" icon={faGlobe} />
@@ -53,7 +53,7 @@ const Project = ({ project }) => {
               </a>
             </div>
           )}
-          <div class="tooltip tooltip-bottom" data-tip="Details">
+          <div className="tooltip tooltip-bottom" data-tip="Details">
             <button onClick={() => navigate(`/project/${id}`)} className="w-10 h-10 rounded-full mr-2 bg-primary">
               <FontAwesomeIcon className="text-black" icon={faInfo} />
             </button>

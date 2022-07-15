@@ -30,19 +30,19 @@ const Banner = () => {
 
   return (
     <div>
-      <div class="hero min-h-screen lg:px-56 mx-auto text-white">
-        <div class="flex items-center w-full justify-between flex-col lg:flex-row-reverse">
+      <div className="hero min-h-screen lg:px-56 mx-auto text-white">
+        <div className="flex items-center w-full justify-between flex-col lg:flex-row-reverse">
           <img
             src={photo}
             style={{ width: "17rem" }}
-            class="rounded-lg shadow-2xl z-40 lg:w-full lg:mt-0 mt-20"
+            className="rounded-lg shadow-2xl z-40 lg:w-full lg:mt-0 mt-20"
             alt="img"
           />
           <div className="lg:mt-0 mt-5">
-            <h1 class="lg:text-5xl text-2xl font-raleway font-bold">
+            <h1 className="lg:text-5xl text-2xl font-raleway font-bold">
               Ashikur Rahman <span className="text-primary">Munna</span>
             </h1>
-            <h4 class="lg:py-3 py-1 lg:text-2xl text-xl flex items-center font-semibold">
+            <h4 className="lg:py-3 py-1 lg:text-2xl text-xl flex items-center font-semibold">
             I'm <span className="text-primary pl-2">{animation}</span>
             </h4>
             <div className="flex justify-between items-center lg:w-2/6 w-3/6">
